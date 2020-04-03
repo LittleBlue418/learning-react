@@ -29,7 +29,8 @@ class App extends Component {
         <button onClick={this.switchNameHandler}>Show Last Names</button>
         <Person
           name={this.state.persons[0].name}
-          age={this.state.persons[0].age}>My Hobbies: Writing</Person>
+          age={this.state.persons[0].age}
+          click={this.switchNameHandler}>My Hobbies: Writing</Person>
         <Person
           name={this.state.persons[1].name}
           age={this.state.persons[1].age}>My Hobbies: Programming</Person>
